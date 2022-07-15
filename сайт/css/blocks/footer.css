@@ -1,10 +1,13 @@
 .footer {
 	background-color: #F5F5F5;
 	/*margin-bottom: 78px;*/
-	justify-content: space-between;
-	display: inline-flex;
+	
 }
 
+.footer_start {
+	justify-content: space-evenly;
+	display: inline-flex;
+}
 
 
 .footer_logo {
@@ -57,11 +60,11 @@
 }
 
 
-.footer_nav {
+.footer_start_nav {
 	font-size: 22px;
 	line-height: 26.4px;
 	font-weight: 600px;
-	margin-left: 950px;
+	margin-left: 800px;
 	padding-bottom: 180px;
 	margin-top: 75px;
 	display: inline-flex;
@@ -69,16 +72,16 @@
 
 
 
-.footer_nav ul {
+.footer_start_nav ul {
 	list-style-type: none;
 	padding-right: 200px;
 }
 
-.footer_nav h2 {
+.footer_start_nav h2 {
 	color: #000;
 }
 
-.footer_nav li {
+.footer_start_nav li {
 	font-weight: 400;
 	color: #999999;
 	font-size: 18px	;
@@ -88,7 +91,7 @@
 
 
 .footer_end {
-	margin-bottom: 150px;
+	/*margin-bottom: 50px;*/
 }
 
 .footer_end h1{
@@ -114,7 +117,7 @@ p.author {
 	width: 317px;
 	height: 62px;
 	left: 1548px;
-	top: 2425px;
+	top: 2300px;
 }
 
 p.recepies {
@@ -127,13 +130,14 @@ p.recepies {
 	width: 478px;
 	height: 62px;
 	left: 987px;
-	top: 2425px;
+	top: 2300px;
 }
 
 
 .footer_end img{
-
-	padding-left: 5%;
+	margin-left: 5%;
+	margin-bottom: 50px;
+	/*padding-left: 5%;*/
 	/*margin-top: 75px;*/
 
 
