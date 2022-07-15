@@ -1,0 +1,43 @@
+.icons {
+	display: inline-flex;
+	margin-bottom: 50px;
+
+}
+
+
+.icons_element {
+	display: inline-flex;
+	padding: 3px;
+	padding-left: 100px;
+	padding-right: 130px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.icons_element p {
+	color: #999999;
+	font-size: 14px;
+	font-weight: 500;
+	line-height: 16.8px;
+	padding-left: 10px;
+}
+.icons_element img {
+	padding-top: 13px;
+}
+.icons_image {
+	padding-left: 10px;
+}
